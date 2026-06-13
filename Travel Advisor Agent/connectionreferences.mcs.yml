@@ -1,0 +1,9 @@
+﻿connectionReferences:
+  - connectionReferenceLogicalName: ca_agent.shared_a365copilotchatmcp.shared-a365copilotch-34bb0b3d-93d4-4526-bbd4-5f37a85d3c17
+    connectorId: /providers/Microsoft.PowerApps/apis/shared_a365copilotchatmcp
+  - connectionReferenceLogicalName: ca_agent.shared_a365memcp.shared-a365memcp-10c3b2fb-c0d7-4c21-b24e-1498370150cd
+    connectorId: /providers/Microsoft.PowerApps/apis/shared_a365memcp
+  - connectionReferenceLogicalName: ca_agent.shared_office365.8c9d0a25cb9e4177b6ba6b9411180d5a
+    connectorId: /providers/Microsoft.PowerApps/apis/shared_office365
+  - connectionReferenceLogicalName: ca_agent.shared_sharepointonline.8a0990d1cf6948a999cd581097348d56
+    connectorId: /providers/Microsoft.PowerApps/apis/shared_sharepointonline

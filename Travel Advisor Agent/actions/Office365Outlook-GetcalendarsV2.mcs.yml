@@ -1,0 +1,17 @@
+mcs.metadata:
+  componentName: Office 365 Outlook - Get calendars (V2)
+kind: TaskDialog
+modelDisplayName: Get calendars (V2)
+modelDescription: This gives user_calender_read. Agent can read dates +location from events.
+outputs:
+  - propertyName: value
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: ca_agent.shared_office365.8c9d0a25cb9e4177b6ba6b9411180d5a
+  connectionProperties:
+    mode: Invoker
+
+  operationId: CalendarGetTables_V2
+
+outputMode: All

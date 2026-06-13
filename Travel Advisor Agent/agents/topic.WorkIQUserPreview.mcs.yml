@@ -1,0 +1,16 @@
+mcs.metadata:
+  componentName: Work IQ User (Preview)
+kind: TaskDialog
+modelDisplayName: Work IQ User (Preview)
+action:
+  kind: InvokeExternalAgentTaskAction
+  connectionReference: ca_agent.shared_a365memcp.shared-a365memcp-10c3b2fb-c0d7-4c21-b24e-1498370150cd
+  connectionProperties:
+    usageDescription: This gives job_title, department, manager. we'll use job_title per diem.
+    mode: Invoker
+
+  operationDetails:
+    kind: ModelContextProtocolMetadata
+    operationId: mcp_MeServer
+    tools:
+      kind: UseAllTools

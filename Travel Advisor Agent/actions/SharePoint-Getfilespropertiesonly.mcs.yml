@@ -1,0 +1,36 @@
+mcs.metadata:
+  componentName: SharePoint - Get files (properties only)
+kind: TaskDialog
+inputs:
+  - kind: ManualTaskInput
+    propertyName: dataset
+    value: https://filza248.sharepoint.com/_layouts/15/sharepoint.aspx
+
+modelDisplayName: Get files (properties only)
+modelDescription: This gives user_files_read. Agent can find past expense templates.
+outputs:
+  - propertyName: value
+    name: value
+    description: List of Items
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: ca_agent.shared_sharepointonline.8a0990d1cf6948a999cd581097348d56
+  connectionProperties:
+    mode: Invoker
+
+  operationId: GetFileItems
+  dynamicOutputSchema:
+    kind: Record
+    properties:
+      value:
+        description: List of Items
+        order: 0
+        type:
+          kind: Table
+          properties:
+            dynamicProperties:
+              order: 0
+              type: Any
+
+outputMode: All
