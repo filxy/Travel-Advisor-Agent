@@ -5,7 +5,7 @@ An AI travel assistant built with Microsoft Copilot Studio that lives inside Mic
 It reads your work context via Work IQ and gives per-diem + policy-compliant trip plans without asking for dates or job title.
 
 ![Architecture Diagram](https://github.com/filxy/Travel-Advisor-Agent/blob/main/Architect%20Diagram%20-%20Travel%20Advisor%20Agent.drawio.png)
-
+![Youtube - Demo](https://youtu.be/0xZJoRM4TaQ)
 ### What it does
 
 **@Travel Advisor** in Teams or copilot.microsoft.com can:
