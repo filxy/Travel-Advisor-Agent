@@ -6,7 +6,7 @@
 ### Expense Template Prompt Images:
 #### Travel Advisor Agent uses Work IQ SharePoint Get_Files Tool here.
 
-![P1](Prompt Images/P1.png)
+
 
 
 An AI travel assistant built with Microsoft Copilot Studio that lives inside Microsoft 365 Copilot.  
