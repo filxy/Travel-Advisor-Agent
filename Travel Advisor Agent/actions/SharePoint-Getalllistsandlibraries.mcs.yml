@@ -1,0 +1,22 @@
+mcs.metadata:
+  componentName: SharePoint - Get all lists and libraries
+kind: TaskDialog
+inputs:
+  - kind: ManualTaskInput
+    propertyName: dataset
+    value: https://filza248.sharepoint.com/
+
+modelDisplayName: Get all lists and libraries
+modelDescription: Get all lists and libraries.
+outputs:
+  - propertyName: value
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: ca_agent.shared_sharepointonline.8a0990d1cf6948a999cd581097348d56
+  connectionProperties:
+    mode: Invoker
+
+  operationId: GetAllTables
+
+outputMode: All

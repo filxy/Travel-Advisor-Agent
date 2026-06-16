@@ -7,3 +7,5 @@
     connectorId: /providers/Microsoft.PowerApps/apis/shared_office365
   - connectionReferenceLogicalName: ca_agent.shared_sharepointonline.8a0990d1cf6948a999cd581097348d56
     connectorId: /providers/Microsoft.PowerApps/apis/shared_sharepointonline
+  - connectionReferenceLogicalName: ca_agent.shared_workiqsharepoint.68426c99942546478d2c599e41cb23fa
+    connectorId: /providers/Microsoft.PowerApps/apis/shared_workiqsharepoint

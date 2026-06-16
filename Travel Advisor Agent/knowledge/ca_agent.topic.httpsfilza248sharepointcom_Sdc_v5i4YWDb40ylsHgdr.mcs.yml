@@ -1,0 +1,9 @@
+mcs.metadata:
+  componentName: https://filza248.sharepoint.com
+  description: "This knowledge source provides information found in SharePoint "
+kind: KnowledgeSourceConfiguration
+source:
+  kind: SharePointSearchSource
+  triggerCondition: true
+  site: https://filza248.sharepoint.com
+  additionalSearchTerms:
