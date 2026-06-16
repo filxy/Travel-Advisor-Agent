@@ -7,6 +7,18 @@
 #### Travel Advisor Agent uses Work IQ SharePoint Get_Files Tool here.
 
 ![alt text](https://github.com/filxy/Travel-Advisor-Agent/blob/main/Prompt%20Images/P1.png)
+<BR><BR>
+![alt text](https://github.com/filxy/Travel-Advisor-Agent/blob/main/Prompt%20Images/P2.png)
+<BR><BR>
+![alt text](https://github.com/filxy/Travel-Advisor-Agent/blob/main/Prompt%20Images/prompt-01.png)
+<BR><BR>
+![alt text](https://github.com/filxy/Travel-Advisor-Agent/blob/main/Prompt%20Images/prompt-02.png)
+<BR><BR>
+![alt text](https://github.com/filxy/Travel-Advisor-Agent/blob/main/Prompt%20Images/prompt-03.png)
+<BR><BR>
+![alt text](https://github.com/filxy/Travel-Advisor-Agent/blob/main/Prompt%20Images/prompt-04.png)
+<BR><BR>
+![alt text](https://github.com/filxy/Travel-Advisor-Agent/blob/main/Prompt%20Images/prompt-05.png)
 
 
 An AI travel assistant built with Microsoft Copilot Studio that lives inside Microsoft 365 Copilot.  
